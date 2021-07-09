@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Oswald:300,400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #8999C1;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #022179;
+    width: 200px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.principal{
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.principal__titulo{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.principal__elemento{
+    color: #394C82;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.principal__nav{
+    width: 20%;
+    padding: 10% 4%;
+    background-color: #EEF1F9;
+}
+
+.principal__section{
+    width: 80%;
+    padding: 10%;
+}
+
+.principal__section p{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #8999C1;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.footer__lista{
+    display: flex;
+}
+
+.footer__enlace{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.absoluto{
+    position: absolute;
+    margin-top: 15px;
+}
